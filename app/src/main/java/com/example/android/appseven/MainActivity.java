@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
         btnLoop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /*for (int i=0; i<=10; i++){
+                for (int i=0; i<=10; i++){
 
                     txtResult.setText(i + "");
-                }*/
+
                 int i = 0;
                 while (i <= 10){
                     txtResult.setText(i + "");
